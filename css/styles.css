@@ -1,12 +1,5 @@
-#show-contact {
-  display: none;
-}
+  body{background-repeat:no-repeat;
+    background-size: cover;
 
-.contact {
-  cursor: pointer;
-  color: #0088cc;
-}
+  }
 
-.contact:hover {
-  text-decoration: underline;
-}  
