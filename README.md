@@ -1,5 +1,5 @@
 ## My Independent Project Week Four
-### This is my Delani studio Project on 28st February 2020
+### This is my Pizza Project on 28st February 2020
 ## By Kingori Mwangi
 ## Description
 ### In my project is to help one practise................. learnt in week 4.
