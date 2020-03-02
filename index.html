@@ -10,6 +10,8 @@
   <body Background="images/pizza9.jpg">
     <div class="container">
       <h1>Kingstone Pizza Inn</h1>
+      <h2>  Welcome to Kingstone Pizza Inn. We make customized Pizza in various flavours and sizes.<br>
+      You need it? We've got it!</h2>
        <div class="row">
         <div class="col-md-6">
           <!--pizza, crust, topping -->
@@ -60,31 +62,22 @@
                 <label class="custom-control-label" for="Green peppers">Green peppers</label>
               </div>
               <br><br>
-            <button type="submit" class="Place-order">Place your order</button>
+            <button type="submit" class="Place-order">Submit</button>
           </form>
             </div>
              <!--pizza, crust, topping-->
             <!--Contact-->
-            <!-- Contact-->
-
-
-
-
-
-
-
-          <div class="container-fluid " id="contact">
+            <div class="container-fluid " id="delivery"></div>
             <h1 class="text-center con"></h1>
-            <form class="form-cont" action="https://gmail.us4.list-manage.com/subscribe/post?u=f431331f76a90ac7308eb0ab1&amp;id=7ec1a61a27" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input type="text" name="FNAME" id="nameDetail" placeholder="Enter Name" required>
-                <input type="email" name="EMAIL" id="email" placeholder="Enter Email" required>
-                <textarea name="MMERGE2" id="message" cols="30" rows="10" placeholder="Enter Message"></textarea><br>
-                <button type="submit " onclick="myFunction()" class="btn btn-primary">Submit</button>
-            </form>
+              <form action="">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                  <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                  <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                  <button class="btn btn-place" id="final-order">Place Order</button>
+                </div>
+              </form>
           </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <!-- Contact-->
   </body>
 </html> 
