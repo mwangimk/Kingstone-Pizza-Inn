@@ -4,8 +4,7 @@
     <title>Kingstone Pizza Inn</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
-    <script src="js/script.js"></script>
+    
   </head>
   <body Background="images/background.jpg">
     <div class="container">
@@ -17,22 +16,22 @@
           <!--pizza, crust, topping -->
         <div class="col-md-6">
            <label for="select"> Make your Yummy Yummy Choice</label>
-               <form action="" id="mm">
-                      <select class="browser-default custom-select custom-select-md mb-3 name">
-                        <option value="Cheese Pizza">Cheese Pizza </option>
-                        <option value="Crispy Sage Pizza">Crispy Sage Pizza</option>
-                        <option value="Buffalo Pizza">Buffalo Pizza</option>
-                        <option value="Ricotta Pizza">Ricotta Pizza</option>
-                        <option value="Spinach Pizza">Spinach Pizza</option>
-                        <option value="Zucchini Pizza">Zucchini Pizza</option>
+               <form action="" id="topping">
+                      <select id="type" class="browser-default custom-select custom-select-md mb-3 name">
+                        <option id="cheese" value="Cheese Pizza">Cheese Pizza </option>
+                        <option id="sage"  value="Crispy Sage Pizza">Crispy Sage Pizza</option>
+                        <option id="Buffalo"  value="Buffalo Pizza">Buffalo Pizza</option>
+                        <option id="Ricotta"  value="Ricotta Pizza">Ricotta Pizza</option>
+                        <option id="spinach"  value="Spinach Pizza">Spinach Pizza</option>
+                        <option id="zucchini"  value="Zucchini Pizza">Zucchini Pizza</option>
                       </select><br>
                     <label for="select">Choose your delicious size!</label>
                     <select class="browser-custom-select-md mb-3" id="size">
-                      <option selected value="0">Select size here</option>
-                      <option value="mega">Mega -- sh. 1500</option>
-                      <option value="large">Large -- sh. 1000</option>
-                      <option value="medium">Medium -- sh. 700</option>
-                      <option value="small">Small -- sh. 450</option>
+                      <option selected value=" ">Select size here</option>
+                      <option id="mega" value="mega">Mega --sh.1500</option>
+                      <option id="large" value="large">Large -- sh.1000</option>
+                      <option id="medium" value="medium">Medium --sh.700</option>
+                      <option id="small" value="small">Small --sh.450</option>
                     </select><br>
                     <label for="crust">Choose your Crust!</label>
                       <select class="browser-custom-select-md mb-3" id="crust">
@@ -62,9 +61,10 @@
                         <label class="custom-control-label" for="Green peppers">Green peppers</label>
                       </div>
                       <br><br>
-                    <button type="submit" class="Place-order">Submit</button>
-  
+                    
                  </form>
+                 <button id="submit"  type="submit" class="Place-order">Submit</button>
+  
         </div>
       </div><br>
       <!--pizza images-->
@@ -162,11 +162,13 @@
                   <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                   <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
                   <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                  <button class="btn btn-place" id="final-order">Place Order</button>
+                  
                 </div>
               </form>
-          
+             <button onclick="myFunction()" class="btn-danger" id="final-order">Place Order</button>
             <!-- Contact-->
      </div>
+     <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html> 
