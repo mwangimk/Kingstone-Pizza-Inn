@@ -4,7 +4,7 @@
     <title>Kingstone Pizza Inn</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
   </head>
   <body Background="images/background.jpg">
@@ -19,7 +19,7 @@
            <label for="select"> Make your Yummy Yummy Choice</label>
                <form action="" id="mm">
                       <select class="browser-default custom-select custom-select-md mb-3 name">
-                        <option value="Cheese Pizza">Cheese Pizza </option>
+                        <option id="cheese" value="Cheese Pizza">Cheese Pizza </option>
                         <option value="Crispy Sage Pizza">Crispy Sage Pizza</option>
                         <option value="Buffalo Pizza">Buffalo Pizza</option>
                         <option value="Ricotta Pizza">Ricotta Pizza</option>
@@ -62,9 +62,10 @@
                         <label class="custom-control-label" for="Green peppers">Green peppers</label>
                       </div>
                       <br><br>
-                    <button type="submit" class="Place-order">Submit</button>
-  
+                    
                  </form>
+                 <button onclick="myFuntion()" type="submit" class="Place-order">Submit</button>
+  
         </div>
       </div><br>
       <!--pizza images-->
