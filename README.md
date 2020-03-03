@@ -8,8 +8,9 @@
 ## Technologies used
    HTML
    JQUERY
-   CSS
    BOOTSTRAP
+   CSS
+   
 
 ## Link to the Portfolio Online Page
 https://mwangimk.github.io/Kingstone-Pizza-Inn/
