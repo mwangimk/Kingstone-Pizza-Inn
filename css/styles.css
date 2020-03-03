@@ -2,3 +2,7 @@
     background-size: cover;
 
   }
+.row .col-sm-2 img
+{
+  height: 120px;
+}
